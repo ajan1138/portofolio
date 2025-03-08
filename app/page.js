@@ -1,5 +1,10 @@
 import Image from "next/image";
+import Navbar from "./_components/Navbar";
 
 export default function Home() {
-  return <div className="text-7xl p-12">AAAAA</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
